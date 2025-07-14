@@ -969,7 +969,7 @@
                   {
                     "targetBlank": true,
                     "title": "VIEW EVENTS",
-                    "url": "http://192.168.1.101:3000/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22rule_groups:${__value.raw}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
+                    "url": "https://localhost/explore?left=%5B%22now-6h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22_id:${__value.text}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
                   }
                 ]
               }
@@ -1874,7 +1874,7 @@
                   {
                     "targetBlank": true,
                     "title": "VIEW EVENTS",
-                    "url": "http://192.168.1.101:3000//explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22rule.level:>=12 AND agent.name:${__value.text}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
+                    "url": "https://localhost/explore?left=%5B%22now-6h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22_id:${__value.text}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
                   }
                 ]
               }
@@ -2362,7 +2362,7 @@
                   {
                     "targetBlank": true,
                     "title": "VIEW EVENT DETAILS",
-                    "url": "http://192.168.1.101:3000/explore?left=%5B%22now-6h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22_id:${__value.text}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
+                    "url": "https://localhost/explore?left=%5B%22now-6h%22,%22now%22,%22WAZUH%22,%7B%22refId%22:%22A%22,%22query%22:%22_id:${__value.text}%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22id%22:%221%22,%22type%22:%22logs%22,%22settings%22:%7B%22limit%22:%22500%22%7D%7D%5D,%22bucketAggs%22:%5B%5D,%22timeField%22:%22timestamp%22%7D%5D"
                   }
                 ]
               }
